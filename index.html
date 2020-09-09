@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.72.0">
+    <title>Starter Template · Bootstrap</title>
+
+    <link rel="canonical" href="https://v5.getbootstrap.com/docs/5.0/examples/starter-template/">
+
+
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        .bd-placeholder-img {
+            font-size: 1.125rem;
+            text-anchor: middle;
+            -webkit-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+
+        @media (min-width: 768px) {
+            .bd-placeholder-img-lg {
+                font-size: 3.5rem;
+            }
+        }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="css/index.css" rel="stylesheet">
+</head>
+
+<body class="bg-dark">
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav mr-auto mb-2 mb-md-0">
+                    <li class="nav-item active">
+                        <a class="nav-link" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Link</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown"
+                            aria-expanded="false">Dropdown</a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
+                            <li><a class="dropdown-item" href="#">Action</a></li>
+                            <li><a class="dropdown-item" href="#">Another action</a></li>
+                            <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container text-light">
+        <!-- Main title-->
+        <div class="starter-template  bg-dark text-center py-5 px-3">
+            <h1>JamPaul97</h1>
+            <p class="lead">Software developer and electronics engineer student.</p>
+        </div>
+        <!-- Main title end -->
+
+        <!-- Information Card -->
+        <div class="container">
+            <div class="row">
+
+                <div class="col-lg-4 text-center">
+                    <p></p>
+                </div>
+                <div class="col-lg-4 text-center text-dark">
+                    <div class="card" style="width: 20rem;">
+                        <img src="img/me_small.jpg" class="card-img-top" alt="Me &#x1F9D1;">
+                        <div class="card-body">
+                            <h4>Details &#x2139;</h4>
+                            <p>Name : Pavlos Mantiaris</p>
+                            <p>Age : <script type="text/javascript">
+                                    document.write(new Date().getFullYear() - 1997)
+                                </script>
+                            </p>
+                            <p>Location : Thessaloniki, Greece, Earth<p>
+                                    <p><a class="btn btn-secondary"
+                                            onClick="var x = getElementById('details');x.style.display = x.style.display == 'inline' ? 'none' : 'inline'"
+                                            role="button">View details »</a></p>
+                        </div>
+                    </div>
+                </div>
+                <p></p>
+            </div>
+        </div>
+
+        <!-- Information Card end -->
+
+        <!-- About me card -->
+        <div id="details" style="display: none;">
+            <div class="card mb-4 shadow-sm text-dark">
+                <div class="card-header">
+                    <h4 class="my-0 font-weight-normal">About me</h4>
+                </div>
+                <div class="card-body">
+                    I am a software developer and a student of electronic engineering at IHU,Thessaloniki.
+                    I love automatization of all kinds hardware and software side.
+                    I have have been studing electronics since i was 15 years old.
+                    I have been learning programming since i was 12 years old.
+                    I love working with a team,if there is coffee!
+                    I mostly develop desktop apps and backend code.
+                    The languages i code most are C#, Javascript and C++.
+                    I have worked on some Unity project in the past (and god forbits not i graphic desing).
+                    <h3>Some facts about me</h3>
+                    <ul class="list-unstyled mt-3 mb-4">
+                        <li>I love music</li>
+                        <li>I love speed</li>
+                        <li>I like to write comments, lots of comments</li>
+                        <li>I have a think for motorbikes</li>
+                        . . . and some more personal thinks . . .
+                        <li>I don't drink.</li>
+                        <li>I smoke.</li>
+                        <li>I have tattoos</li>
+                        <li>I have a beard</li>
+                        <li>No i am not a hipster!</li>
+                        <li>I enjoy movies</li>
+                    </ul>
+                    <button type="button" class="btn btn-lg btn-block btn-outline-primary">Read more</button>
+                </div>
+            </div>
+        </div>
+        <!-- About me card end -->
+
+    </main>
+    <footer class="footer mt-auto py-3 bg-dark">
+        <div class="container">
+            <span class="text-light">Copyright © Pavlos Mantziaris 2020 - Made with Bootstrap 5 Alpha</span>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
